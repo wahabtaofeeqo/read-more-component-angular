@@ -1,0 +1,8 @@
+<p>
+  {{isCollapsed ? text : text.substring(0, length) }}
+
+  <!--Toggler-->
+  <span *ngIf="text.length > length" (click)="isCollapsed = !isCollapsed">
+    {{isCollapsed ? 'hide' : 'show more'}}
+  </span>
+</p>

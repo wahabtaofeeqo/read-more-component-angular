@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'read-more-app';
+
+  title = 'Read-more-app';
+  content = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam eligendi nostrum accusamus quia. Consequuntur nisi laudantium iste officia nulla distinctio ex, hic facilis architecto nihil dicta deserunt nemo quae';
 }
